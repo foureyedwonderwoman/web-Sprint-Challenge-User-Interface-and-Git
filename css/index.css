@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -65,7 +66,29 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+header{  
+    display:flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 800px;
+    margin-top:4%;
+}
+header nav{
+    display:flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+    font-size: 14px;
+}
 
+header nav a{
+    text-decoration: none;
+    color:black;   
+}
+.headerimg{
+   margin:3% 0;
+
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -101,7 +124,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3,.box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -143,4 +166,62 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* additional about page content */
+.what-we-do{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    margin: 30px 0;
+    line-height: 1.5;
+}
+.what-we-do article {
+    width: 400px;
+    Height: 500px;
+    padding-bottom: 5%;
+
+}
+
+.what-we-do a{
+
+    text-decoration: none;
+    color:black;
+    border:1px solid black;
+    padding:5px;
+    border-radius: 5px;
+    
+}
+p{
+    padding-bottom:20px;
+}
+/* box divs */
+.box1 {
+    background-color: teal;
+}
+.box2 {
+    background-color:gold;
+}
+.box3 {
+    background-color:cadetblue;
+}
+.box4 {
+    background-color:coral;
+}
+.box5 {
+    background-color:crimson;
+}
+.box6 {
+    background-color:forestgreen;
+}
+.box7 {
+    background-color:darkorchid;
+}
+.box8 {
+    background-color:hotpink;
+}
+.box9 {
+    background-color:indigo;
+}
+.box10 {
+    background-color:dodgerblue;
 }
