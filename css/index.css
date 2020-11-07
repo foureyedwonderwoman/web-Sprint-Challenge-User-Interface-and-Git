@@ -71,7 +71,7 @@ header{
     justify-content: space-between;
     height: 40px;
     width: 800px;
-    margin-top:50%;
+    margin-top:4%;
 }
 header nav{
     display:flex;
@@ -167,7 +167,7 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-/* about page content */
+/* additional about page content */
 .what-we-do{
     display: flex;
     justify-content: space-between;
@@ -192,9 +192,9 @@ footer nav a {
     
 }
 p{
-    padding:20px;
+    padding-bottom:20px;
 }
-
+/* box divs */
 .box1 {
     background-color: teal;
 }
